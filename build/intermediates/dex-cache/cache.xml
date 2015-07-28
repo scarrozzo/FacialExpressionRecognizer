@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-0c3cc8815a62e3b3337c3eaf23810e6303b2f31a.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/classes-aec1d6620a23808e0df07fb96e26ce804a01d76d.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/libs/javacv.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="310927e25b52136954b65608f341dfd5e5ad9d64">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/javacv-06690b38da474edb261763646913923fc98769a8.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/classes-242722c285a430d47443f3a17fd3aad9f4ca9c16.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/libs/encog-core-3.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85c82eb2f28f9eea728a3922eb96727a00022891">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/encog-core-3.0.0-fb04a52c9c37e2229385574656152659e824844c.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/libs/com-lauti-cppte206157.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e2d53f81ebb689f1534fb59b56336d6caea6c53">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/com-lauti-cppte206157-02d93c8518547b7cbfa3dc2b9cdb77b6522816fc.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/libs/javacpp.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ff8f2a518e524ae8de093d6556fc21a6ab8f05b2">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/javacpp-0310b15854569d2046f756d1f5856e70aca41289.jar" />
+    </item>
+    <item
+        jar="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5531cb41e35c81a051a274945542f6b31e4c97e">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/classes-a07983d00668ffa3ba31fd70d0ab5f25100b153d.jar" />
+    </item>
+    <item
+        jar="/Users/scar/adt-bundle-mac-x86_64-20140624/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-8175c57c7bfd1235fbf220a142d29491449203ab.jar" />
+    </item>
+
+</items>

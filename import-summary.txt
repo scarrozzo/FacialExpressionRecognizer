@@ -1,0 +1,248 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* COPYING
+* COPYINGv2.txt
+* FacialExpressionRecognizer.iml
+* LICENSE.txt
+* NOTICE.txt
+* README
+* ic_launcher-web.png
+* jni/
+* jni/Application.mk
+* out/
+* out/production/
+* out/production/appcompat_v7_8/
+* out/production/appcompat_v7_8/android/
+* out/production/appcompat_v7_8/android/support/
+* out/production/appcompat_v7_8/android/support/v7/
+* out/production/appcompat_v7_8/android/support/v7/appcompat/
+* out/production/appcompat_v7_8/android/support/v7/appcompat/BuildConfig.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$anim.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$attr.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$bool.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$color.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$dimen.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$drawable.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$id.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$integer.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$layout.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$string.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$style.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R$styleable.class
+* out/production/appcompat_v7_8/android/support/v7/appcompat/R.class
+* out/production/google-play-services_lib/
+* out/production/google-play-services_lib/android/
+* out/production/google-play-services_lib/android/UnusedStub.class
+* out/production/google-play-services_lib/com/
+* out/production/google-play-services_lib/com/google/
+* out/production/google-play-services_lib/com/google/android/
+* out/production/google-play-services_lib/com/google/android/gms/
+* out/production/google-play-services_lib/com/google/android/gms/BuildConfig.class
+* out/production/google-play-services_lib/com/google/android/gms/R$attr.class
+* out/production/google-play-services_lib/com/google/android/gms/R$color.class
+* out/production/google-play-services_lib/com/google/android/gms/R$drawable.class
+* out/production/google-play-services_lib/com/google/android/gms/R$id.class
+* out/production/google-play-services_lib/com/google/android/gms/R$integer.class
+* out/production/google-play-services_lib/com/google/android/gms/R$string.class
+* out/production/google-play-services_lib/com/google/android/gms/R$style.class
+* out/production/google-play-services_lib/com/google/android/gms/R$styleable.class
+* out/production/google-play-services_lib/com/google/android/gms/R.class
+* out/production/gridlayout_v7/
+* out/production/gridlayout_v7/android/
+* out/production/gridlayout_v7/android/support/
+* out/production/gridlayout_v7/android/support/v7/
+* out/production/gridlayout_v7/android/support/v7/gridlayout/
+* out/production/gridlayout_v7/android/support/v7/gridlayout/BuildConfig.class
+* out/production/gridlayout_v7/android/support/v7/gridlayout/R$attr.class
+* out/production/gridlayout_v7/android/support/v7/gridlayout/R$dimen.class
+* out/production/gridlayout_v7/android/support/v7/gridlayout/R$id.class
+* out/production/gridlayout_v7/android/support/v7/gridlayout/R$styleable.class
+* out/production/gridlayout_v7/android/support/v7/gridlayout/R.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+gridlayout-v7 => [com.android.support:gridlayout-v7:20.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/armeabi/libavcodec.so => app/src/main/jniLibs/armeabi/libavcodec.so
+* libs/armeabi/libavdevice.so => app/src/main/jniLibs/armeabi/libavdevice.so
+* libs/armeabi/libavfilter.so => app/src/main/jniLibs/armeabi/libavfilter.so
+* libs/armeabi/libavformat.so => app/src/main/jniLibs/armeabi/libavformat.so
+* libs/armeabi/libavutil.so => app/src/main/jniLibs/armeabi/libavutil.so
+* libs/armeabi/libjniARToolKitPlus.so => app/src/main/jniLibs/armeabi/libjniARToolKitPlus.so
+* libs/armeabi/libjniavcodec.so => app/src/main/jniLibs/armeabi/libjniavcodec.so
+* libs/armeabi/libjniavdevice.so => app/src/main/jniLibs/armeabi/libjniavdevice.so
+* libs/armeabi/libjniavfilter.so => app/src/main/jniLibs/armeabi/libjniavfilter.so
+* libs/armeabi/libjniavformat.so => app/src/main/jniLibs/armeabi/libjniavformat.so
+* libs/armeabi/libjniavutil.so => app/src/main/jniLibs/armeabi/libjniavutil.so
+* libs/armeabi/libjnicvkernels.so => app/src/main/jniLibs/armeabi/libjnicvkernels.so
+* libs/armeabi/libjniopencv_calib3d.so => app/src/main/jniLibs/armeabi/libjniopencv_calib3d.so
+* libs/armeabi/libjniopencv_contrib.so => app/src/main/jniLibs/armeabi/libjniopencv_contrib.so
+* libs/armeabi/libjniopencv_core.so => app/src/main/jniLibs/armeabi/libjniopencv_core.so
+* libs/armeabi/libjniopencv_features2d.so => app/src/main/jniLibs/armeabi/libjniopencv_features2d.so
+* libs/armeabi/libjniopencv_flann.so => app/src/main/jniLibs/armeabi/libjniopencv_flann.so
+* libs/armeabi/libjniopencv_highgui.so => app/src/main/jniLibs/armeabi/libjniopencv_highgui.so
+* libs/armeabi/libjniopencv_imgproc.so => app/src/main/jniLibs/armeabi/libjniopencv_imgproc.so
+* libs/armeabi/libjniopencv_legacy.so => app/src/main/jniLibs/armeabi/libjniopencv_legacy.so
+* libs/armeabi/libjniopencv_ml.so => app/src/main/jniLibs/armeabi/libjniopencv_ml.so
+* libs/armeabi/libjniopencv_nonfree.so => app/src/main/jniLibs/armeabi/libjniopencv_nonfree.so
+* libs/armeabi/libjniopencv_objdetect.so => app/src/main/jniLibs/armeabi/libjniopencv_objdetect.so
+* libs/armeabi/libjniopencv_photo.so => app/src/main/jniLibs/armeabi/libjniopencv_photo.so
+* libs/armeabi/libjniopencv_stitching.so => app/src/main/jniLibs/armeabi/libjniopencv_stitching.so
+* libs/armeabi/libjniopencv_video.so => app/src/main/jniLibs/armeabi/libjniopencv_video.so
+* libs/armeabi/libjniopencv_videostab.so => app/src/main/jniLibs/armeabi/libjniopencv_videostab.so
+* libs/armeabi/libjnipostproc.so => app/src/main/jniLibs/armeabi/libjnipostproc.so
+* libs/armeabi/libjniswresample.so => app/src/main/jniLibs/armeabi/libjniswresample.so
+* libs/armeabi/libjniswscale.so => app/src/main/jniLibs/armeabi/libjniswscale.so
+* libs/armeabi/libopencv_calib3d.so => app/src/main/jniLibs/armeabi/libopencv_calib3d.so
+* libs/armeabi/libopencv_contrib.so => app/src/main/jniLibs/armeabi/libopencv_contrib.so
+* libs/armeabi/libopencv_core.so => app/src/main/jniLibs/armeabi/libopencv_core.so
+* libs/armeabi/libopencv_features2d.so => app/src/main/jniLibs/armeabi/libopencv_features2d.so
+* libs/armeabi/libopencv_flann.so => app/src/main/jniLibs/armeabi/libopencv_flann.so
+* libs/armeabi/libopencv_gpu.so => app/src/main/jniLibs/armeabi/libopencv_gpu.so
+* libs/armeabi/libopencv_highgui.so => app/src/main/jniLibs/armeabi/libopencv_highgui.so
+* libs/armeabi/libopencv_imgproc.so => app/src/main/jniLibs/armeabi/libopencv_imgproc.so
+* libs/armeabi/libopencv_info.so => app/src/main/jniLibs/armeabi/libopencv_info.so
+* libs/armeabi/libopencv_legacy.so => app/src/main/jniLibs/armeabi/libopencv_legacy.so
+* libs/armeabi/libopencv_ml.so => app/src/main/jniLibs/armeabi/libopencv_ml.so
+* libs/armeabi/libopencv_nonfree.so => app/src/main/jniLibs/armeabi/libopencv_nonfree.so
+* libs/armeabi/libopencv_objdetect.so => app/src/main/jniLibs/armeabi/libopencv_objdetect.so
+* libs/armeabi/libopencv_photo.so => app/src/main/jniLibs/armeabi/libopencv_photo.so
+* libs/armeabi/libopencv_stitching.so => app/src/main/jniLibs/armeabi/libopencv_stitching.so
+* libs/armeabi/libopencv_video.so => app/src/main/jniLibs/armeabi/libopencv_video.so
+* libs/armeabi/libopencv_videostab.so => app/src/main/jniLibs/armeabi/libopencv_videostab.so
+* libs/armeabi/libpostproc.so => app/src/main/jniLibs/armeabi/libpostproc.so
+* libs/armeabi/libswresample.so => app/src/main/jniLibs/armeabi/libswresample.so
+* libs/armeabi/libswscale.so => app/src/main/jniLibs/armeabi/libswscale.so
+* libs/armeabi/libtbb.so => app/src/main/jniLibs/armeabi/libtbb.so
+* libs/com-lauti-cppte206157.jar => app/libs/com-lauti-cppte206157.jar
+* libs/encog-core-3.0.0.jar => app/libs/encog-core-3.0.0.jar
+* libs/javacpp.jar => app/libs/javacpp.jar
+* libs/javacv.jar => app/libs/javacv.jar
+* libs/x86/libavcodec.so => app/src/main/jniLibs/x86/libavcodec.so
+* libs/x86/libavdevice.so => app/src/main/jniLibs/x86/libavdevice.so
+* libs/x86/libavfilter.so => app/src/main/jniLibs/x86/libavfilter.so
+* libs/x86/libavformat.so => app/src/main/jniLibs/x86/libavformat.so
+* libs/x86/libavutil.so => app/src/main/jniLibs/x86/libavutil.so
+* libs/x86/libjniavcodec.so => app/src/main/jniLibs/x86/libjniavcodec.so
+* libs/x86/libjniavdevice.so => app/src/main/jniLibs/x86/libjniavdevice.so
+* libs/x86/libjniavfilter.so => app/src/main/jniLibs/x86/libjniavfilter.so
+* libs/x86/libjniavformat.so => app/src/main/jniLibs/x86/libjniavformat.so
+* libs/x86/libjniavutil.so => app/src/main/jniLibs/x86/libjniavutil.so
+* libs/x86/libjnicvkernels.so => app/src/main/jniLibs/x86/libjnicvkernels.so
+* libs/x86/libjniopencv_calib3d.so => app/src/main/jniLibs/x86/libjniopencv_calib3d.so
+* libs/x86/libjniopencv_contrib.so => app/src/main/jniLibs/x86/libjniopencv_contrib.so
+* libs/x86/libjniopencv_core.so => app/src/main/jniLibs/x86/libjniopencv_core.so
+* libs/x86/libjniopencv_features2d.so => app/src/main/jniLibs/x86/libjniopencv_features2d.so
+* libs/x86/libjniopencv_flann.so => app/src/main/jniLibs/x86/libjniopencv_flann.so
+* libs/x86/libjniopencv_highgui.so => app/src/main/jniLibs/x86/libjniopencv_highgui.so
+* libs/x86/libjniopencv_imgproc.so => app/src/main/jniLibs/x86/libjniopencv_imgproc.so
+* libs/x86/libjniopencv_legacy.so => app/src/main/jniLibs/x86/libjniopencv_legacy.so
+* libs/x86/libjniopencv_ml.so => app/src/main/jniLibs/x86/libjniopencv_ml.so
+* libs/x86/libjniopencv_nonfree.so => app/src/main/jniLibs/x86/libjniopencv_nonfree.so
+* libs/x86/libjniopencv_objdetect.so => app/src/main/jniLibs/x86/libjniopencv_objdetect.so
+* libs/x86/libjniopencv_photo.so => app/src/main/jniLibs/x86/libjniopencv_photo.so
+* libs/x86/libjniopencv_stitching.so => app/src/main/jniLibs/x86/libjniopencv_stitching.so
+* libs/x86/libjniopencv_video.so => app/src/main/jniLibs/x86/libjniopencv_video.so
+* libs/x86/libjniopencv_videostab.so => app/src/main/jniLibs/x86/libjniopencv_videostab.so
+* libs/x86/libjnipostproc.so => app/src/main/jniLibs/x86/libjnipostproc.so
+* libs/x86/libjniswresample.so => app/src/main/jniLibs/x86/libjniswresample.so
+* libs/x86/libjniswscale.so => app/src/main/jniLibs/x86/libjniswscale.so
+* libs/x86/libopencv_calib3d.so => app/src/main/jniLibs/x86/libopencv_calib3d.so
+* libs/x86/libopencv_contrib.so => app/src/main/jniLibs/x86/libopencv_contrib.so
+* libs/x86/libopencv_core.so => app/src/main/jniLibs/x86/libopencv_core.so
+* libs/x86/libopencv_features2d.so => app/src/main/jniLibs/x86/libopencv_features2d.so
+* libs/x86/libopencv_flann.so => app/src/main/jniLibs/x86/libopencv_flann.so
+* libs/x86/libopencv_gpu.so => app/src/main/jniLibs/x86/libopencv_gpu.so
+* libs/x86/libopencv_highgui.so => app/src/main/jniLibs/x86/libopencv_highgui.so
+* libs/x86/libopencv_imgproc.so => app/src/main/jniLibs/x86/libopencv_imgproc.so
+* libs/x86/libopencv_info.so => app/src/main/jniLibs/x86/libopencv_info.so
+* libs/x86/libopencv_legacy.so => app/src/main/jniLibs/x86/libopencv_legacy.so
+* libs/x86/libopencv_ml.so => app/src/main/jniLibs/x86/libopencv_ml.so
+* libs/x86/libopencv_nonfree.so => app/src/main/jniLibs/x86/libopencv_nonfree.so
+* libs/x86/libopencv_objdetect.so => app/src/main/jniLibs/x86/libopencv_objdetect.so
+* libs/x86/libopencv_photo.so => app/src/main/jniLibs/x86/libopencv_photo.so
+* libs/x86/libopencv_stitching.so => app/src/main/jniLibs/x86/libopencv_stitching.so
+* libs/x86/libopencv_video.so => app/src/main/jniLibs/x86/libopencv_video.so
+* libs/x86/libopencv_videostab.so => app/src/main/jniLibs/x86/libopencv_videostab.so
+* libs/x86/libpostproc.so => app/src/main/jniLibs/x86/libpostproc.so
+* libs/x86/libswresample.so => app/src/main/jniLibs/x86/libswresample.so
+* libs/x86/libswscale.so => app/src/main/jniLibs/x86/libswscale.so
+* libs/x86/libtbb.so => app/src/main/jniLibs/x86/libtbb.so
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/org/altervista/scarrozzo/facialexpressionrecognizer/util/.DS_Store => app/src/main/resources/org/altervista/scarrozzo/facialexpressionrecognizer/util/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

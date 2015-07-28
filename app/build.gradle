@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "org.altervista.scarrozzo.facialexpressionrecognizer"
+        minSdkVersion 11
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:gridlayout-v7:20.0.0'
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile files('libs/com-lauti-cppte206157.jar')
+    compile files('libs/encog-core-3.0.0.jar')
+    compile files('libs/javacpp.jar')
+    compile files('libs/javacv.jar')
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+
+  Copyright 2014 Sergio Carrozzo
+
+  This file is part of Facial Expression Recognizer.
+
+  Facial Expression Recognizer is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+   Facial Expression Recognizer is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with Facial Expression Recognizer.  If not, see <http://www.gnu.org/licenses/>.
+   
+ -->
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+    android:id="@+id/Color.BLUE"
+    android:title="@string/color_blue"
+    android:titleCondensed="@string/color_blue"
+    android:visible="true"/>
+    <item
+    android:id="@+id/Color.BLACK"
+    android:title="@string/color_black"
+    android:titleCondensed="@string/color_black"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.RED"
+    android:title="@string/color_red"
+    android:titleCondensed="@string/color_red"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.GREEN"
+    android:title="@string/color_green"
+    android:titleCondensed="@string/color_green"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.CYAN"
+    android:title="@string/color_cyan"
+    android:titleCondensed="@string/color_cyan"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.MAGENTA"
+    android:title="@string/color_magenta"
+    android:titleCondensed="@string/color_magenta"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.YELLOW"
+    android:title="@string/color_yellow"
+    android:titleCondensed="@string/color_yellow"
+    android:visible="true"/>
+	<item
+	android:id="@+id/Color.WHITE"
+    android:title="@string/color_white"
+    android:titleCondensed="@string/color_white"
+    android:visible="true"/>
+</menu>
+<!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/src/main/res/menu/button_chooser_popup.xml -->

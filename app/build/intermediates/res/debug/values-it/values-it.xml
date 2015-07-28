@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <color name="gray">#EEEEEE</color>
+    <string name="SavedExpr">Espressioni Salvate</string>
+    <string name="SavedExprDetails">Mostra le espressioni salvate</string>
+    <!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_settings_Share">Condividi</string>
+    <string name="action_settings_deleteAll">Cancella tutte</string>
+    <string name="action_settings_imagedetails">Dettagli</string>
+    <string name="action_settings_saveAll">Salva tutte le facce</string>
+    <string name="action_settings_saveGallery">Salva nella galleria</string>
+    <string name="action_settings_saveToGallery">Salva l\'immagine nella galleria</string>
+    <string name="action_settings_showExprPerc">Mostra percentuali espressione</string>
+    <string name="app_id">731852480184743</string>
+    <string name="app_name">Riconoscitore Espressioni Facciali</string>
+    <string name="classErr">haarcascade_frontalface_default.xml non trovato</string>
+    <string name="color_black">Nero</string>
+    <string name="color_blue">Blu</string>
+    <string name="color_cyan">Ciano</string>
+    <string name="color_green">Verde</string>
+    <string name="color_magenta">Magenta</string>
+    <string name="color_red">Rosso</string>
+    <string name="color_white">Bianco</string>
+    <string name="color_yellow">Giallo</string>
+    <string name="deleteImageGridView">Cancella</string>
+    <string name="deleteSuccess">Cancellazione Effettuata</string>
+    <string name="dialog_title_product_info">Informazioni Prodotto</string>
+    <string name="exp_anger">Rabbia: </string>
+    <string name="exp_disgust">Disgusto: </string>
+    <string name="exp_fear">Paura: </string>
+    <string name="exp_happy">Felicità: </string>
+    <string name="exp_neutral">Neutrale: </string>
+    <string name="exp_sad">Tristezza: </string>
+    <string name="exp_surprise">Sorpresa: </string>
+    <string name="expression_menu_saveFace">Salva la faccia corrente</string>
+    <string name="faceImageRec">Result Image</string>
+    <string name="failToDelete">Impossibile cancellare</string>
+    <string name="failToSave">Salvataggio Fallito</string>
+    <string name="gridMultipleDelete">Seleziona per cancellare</string>
+    <string name="grid_context_menuSubTitle_selItems">Un elemento selezionato</string>
+    <string name="grid_context_menuTitle_selItems">Seleziona elementi</string>
+    <string name="grid_context_menu_moreItemsSelected">elementi selezionati</string>
+    <string name="grid_context_menu_oneItemSelected">Un elemento selezionato</string>
+    <string name="no">No</string>
+    <string name="noFaceRecognized">Nessuna faccia riconosciuta</string>
+    <string name="noFaceSelected">Selezione una faccia</string>
+    <string name="productInfo">Informazioni Prodotto</string>
+    <string name="product_info">
+Facial Expression Recognizer v1.2\n
+Copyright 2014 Sergio Carrozzo\n
+GNU GPL v3\n\n
+    This program is free software: you can redistribute it and/or modify\n
+    it under the terms of the GNU General Public License as published by\n
+    the Free Software Foundation, either version 3 of the License, or\n
+    (at your option) any later version.\n\n
+    This program is distributed in the hope that it will be useful,\n
+    but WITHOUT ANY WARRANTY; without even the implied warranty of\n
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n
+    GNU General Public License for more details.\n\n
+    You should have received a copy of the GNU General Public License\n
+    along with this program.  If not, see  http://www.gnu.org/licenses/>.\n\n
+You can find the source code for this software at the following link:\n
+http://scarrozzo.altervista.org/\n
+or contact me at: sergio.carrozzo@gmail.com\n\n
+The algorithms for the recognition of expressions have been written using the library javaCV (https://github.com/bytedeco), under GNU GPL v2. You can get a copy of the GNU GPL v2 by downloading the source code, or at the following link: https://www.gnu.org/licenses/gpl-2.0.txt \n\n
+This software also includes third-party libraries under the Apache 2.0 license (therefore compatible with GNU GPL v3). You can get a copy of the Apache 2.0 license by downloading the source code, or at the following link: http://www.apache.org/licenses/LICENSE-2.0.html.\n
+As reported in the NOTICE file (you can get it downloading the sources), the libraries used are:\n
+1) Encog Machine Learning Library. See more at: http://www.heatonresearch.com/encog\n
+2) Photo View library, written by Chris Banes (https://github.com/chrisbanes/PhotoView).\n\n
+Face detection is implemented using “haarcascade_frontalface_default.xml”, under the following license:\n\n
+Stump-based 24x24 discrete(?) adaboost frontal face detector.\n
+    Created by Rainer Lienhart.\n\n
+////////////////////////////////////////////////////////////////////////////////////////\n
+\n
+  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.\n
+\n
+  By downloading, copying, installing or using the software you agree to this license.\n
+  If you do not agree to this license, do not download, install,\n
+  copy or use the software.\n
+\n
+\n
+                        Intel License Agreement\n
+                For Open Source Computer Vision Library\n
+\n
+ Copyright (C) 2000, Intel Corporation, all rights reserved.\n
+ Third party copyrights are property of their respective owners.\n
+\n
+ Redistribution and use in source and binary forms, with or without modification,\n
+ are permitted provided that the following conditions are met:\n
+\n
+   * Redistribution\'s of source code must retain the above copyright notice,\n
+     this list of conditions and the following disclaimer.\n
+\n
+   * Redistribution\'s in binary form must reproduce the above copyright notice,\n
+     this list of conditions and the following disclaimer in the documentation\n
+     and/or other materials provided with the distribution.\n
+\n
+   * The name of Intel Corporation may not be used to endorse or promote products\n
+     derived from this software without specific prior written permission.\n
+\n
+ This software is provided by the copyright holders and contributors "as is" and\n
+ any express or implied warranties, including, but not limited to, the implied\n
+ warranties of merchantability and fitness for a particular purpose are disclaimed.\n
+ In no event shall the Intel Corporation or contributors be liable for any direct,\n
+ indirect, incidental, special, exemplary, or consequential damages\n
+ (including, but not limited to, procurement of substitute goods or services;\n
+ loss of use, data, or profits; or business interruption) however caused\n
+ and on any theory of liability, whether in contract, strict liability,\n
+ or tort (including negligence or otherwise) arising in any way out of\n
+ the use of this software, even if advised of the possibility of such damage.\n
+        \n
+    </string>
+    <string name="progressDialog_Title">Riconoscimento in corso</string>
+    <string name="progressDialog_expr">Trovo le espressioni</string>
+    <string name="progressDialog_faces">Rilevo le facce</string>
+    <string name="progressDialog_loadImg">Caricamento dell\'immagine</string>
+    <string name="recFromEx">Riconosci Da Foto</string>
+    <string name="recFromExDetails">Riconosci espressioni da una foto esistente</string>
+    <string name="saveSuccess">Salvataggio Effettuato</string>
+    <string name="savedExpressions_nothingToDelete">Niente da Cancellare</string>
+    <string name="savedExpressions_sureToDelete">Sei sicuro?</string>
+    <string name="settings_radioRandom">Etichetta grigia e colore barre casuale</string>
+    <string name="settings_radioSelect">Colori personalizzati</string>
+    <string name="settings_textview">Stile Etichetta Espressione</string>
+    <string name="settings_textviewBars">Colori barre</string>
+    <string name="settings_textviewLabel">Colore etichetta</string>
+    <string name="takeAndRec">Scatta &amp; Riconosci</string>
+    <string name="takeAndRecDetails">Scatta una foto e riconosci le espressioni</string>
+    <string name="tapToZoom">Touch to Zoom</string>
+    <string name="title_about_activity">Informazioni Prodotto</string>
+    <string name="title_activity_capture_and_rec">Scatta e Riconosci</string>
+    <string name="title_activity_expressionDetail">Dettagli Espressione</string>
+    <string name="title_activity_recognize_from_ex">Riconosci da Galleria</string>
+    <string name="title_activity_savedExpressions">Le Tue Espressioni Salvate</string>
+    <string name="title_settings_activity">Impostazioni</string>
+    <string name="yes">Si</string>
+</resources>

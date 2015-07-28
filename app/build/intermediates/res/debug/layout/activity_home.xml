@@ -1,0 +1,117 @@
+<!-- 
+
+  Copyright 2014 Sergio Carrozzo
+
+  This file is part of Facial Expression Recognizer.
+
+  Facial Expression Recognizer is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+   Facial Expression Recognizer is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with Facial Expression Recognizer.  If not, see <http://www.gnu.org/licenses/>.
+   
+ -->
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearHomelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:orientation="vertical"
+            tools:context="org.altervista.scarrozzo.facialexpressionrecognizer.Activities.HomeActivity"
+            tools:ignore="MergeRootFrame" >
+
+            <Button
+                android:id="@+id/RecFromEx_btn"
+                style="@style/btnStyleWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_action_search"
+                android:drawablePadding="12dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/recFromEx" />
+
+            <Button
+                android:id="@+id/TakeAndRec_btn"
+                style="@style/btnStyleWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/RecFromEx_btn"
+                android:layout_alignRight="@+id/RecFromEx_btn"
+                android:layout_below="@+id/RecFromEx_btn"
+                android:layout_marginTop="17dp"
+                android:drawableLeft="@drawable/ic_action_camera"
+                android:drawablePadding="12dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/takeAndRec" />
+
+			<Button
+                android:id="@+id/savedExp_btn"
+                style="@style/btnStyleWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TakeAndRec_btn"
+                android:layout_alignRight="@+id/TakeAndRec_btn"
+                android:layout_below="@+id/TakeAndRec_btn"
+                android:layout_marginTop="17dp"
+                android:drawableLeft="@drawable/ic_action_collection"
+                android:drawablePadding="12dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/SavedExpr" />
+
+            <Button
+                android:id="@+id/productInfo_btn"
+                style="@style/btnStyleWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/savedExp_btn"
+                android:layout_alignRight="@+id/savedExp_btn"
+                android:layout_below="@+id/savedExp_btn"
+                android:layout_marginTop="17dp"
+                android:drawableLeft="@drawable/ic_action_about"
+                android:drawablePadding="12dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/productInfo" />
+
+
+            
+            <View 
+                  android:id="@+id/voidSpace"
+                  android:layout_height="17dp"
+                  android:layout_width="0dp"
+                  android:layout_below="@+id/productInfo_btn"/>
+            
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/src/main/res/layout/activity_home.xml -->

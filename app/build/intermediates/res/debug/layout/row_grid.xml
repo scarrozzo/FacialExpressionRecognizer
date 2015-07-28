@@ -1,0 +1,44 @@
+<!-- 
+
+  Copyright 2014 Sergio Carrozzo
+
+  This file is part of Facial Expression Recognizer.
+
+  Facial Expression Recognizer is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+   Facial Expression Recognizer is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with Facial Expression Recognizer.  If not, see <http://www.gnu.org/licenses/>.
+   
+ -->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical"
+    android:padding="5dp" 
+    android:clickable="false"
+    android:focusable="false"
+    android:background="@drawable/grid_color">
+
+    <ImageView
+        android:id="@+id/gridImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:focusable="false" 
+        android:clickable="false"
+        android:focusableInTouchMode="false" >
+    </ImageView>
+
+</LinearLayout>
+<!-- From: file:/Users/scar/AndroidStudioProjects/FacialExpressionRecognizer/app/src/main/res/layout/row_grid.xml -->
