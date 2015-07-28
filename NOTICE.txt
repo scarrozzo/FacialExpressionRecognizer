@@ -1,0 +1,17 @@
+=========================================================================
+
+Facial Expression Recognizer
+Copyright 2014 Sergio Carrozzo
+GNU GPL v3
+http://www.gnu.org/licenses/gpl.txt
+
+you can find the source code for this software at the following link:
+http://scarrozzo.altervista.org/
+or contact me at: sergio.carrozzo@gmail.com
+=========================================================================
+
+This software incorporates the Encog Machine Learning Library.
+See more at: http://www.heatonresearch.com/encog
+
+Zoom image view support is provided by the Photo View library,
+written by Chris Banes (https://github.com/chrisbanes/PhotoView).
